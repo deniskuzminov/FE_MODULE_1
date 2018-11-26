@@ -1,0 +1,143 @@
+.main {
+  background-color: #a6a491;
+  display: flex;
+  position: relative;
+  height: 100px;
+}
+.main .logo {
+  width: 173px;
+  height: 33px;
+  color: #fefdde;
+  font-family: Georgia;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 42px;
+  position: relative;
+  top: 24px;
+  left: 21px;
+}
+.main .postlogo {
+  width: 150px;
+  height: 12px;
+  color: #fefdde;
+  font-family: Georgia;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  position: relative;
+  top: 17px;
+  left: 20px;
+}
+.main .nav-item {
+  width: 54px;
+  height: 10px;
+  color: #fefdde;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  top: 46px;
+  left: 800px;
+  right: 20px;
+  padding-left: 63px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.main .nav-item:after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #c80000;
+  display: inline;
+  position: relative;
+  bottom: -6px;
+  transition: all 0.1s ease-in-out;
+  margin: 0 auto;
+}
+.main .nav-item:hover {
+  color: #c80000;
+}
+.main .nav-item:hover:after {
+  width: 100%;
+}
+
+.mainelse {
+  height: 378px;
+  background-color: #504e41;
+  display: flex;
+}
+.mainelse .img {
+  width: 450px;
+  height: 330px;
+  background-color: #333333;
+  display: flex;
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+.mainelse .img .imgtext {
+  width: 198px;
+  height: 28px;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  position: relative;
+  top: 107px;
+  left: 126px;
+}
+.mainelse .maintext {
+  color: #cccccc;
+  font-family: Georgia;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.mainelse .subtext {
+  width: 763px;
+  color: #cccccc;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.submain {
+  background-color: #efe3b9;
+  height: 188px;
+}
+.submain .main-article {
+  width: 150px;
+  height: 16px;
+  color: #333333;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: underline;
+}
+.submain .text-main {
+  width: 150px;
+  height: 94px;
+  color: #c80000;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.wall {
+  height: 1345px;
+  background-color: #fefdde;
+  display: flex;
+}
+
+.copyright {
+  height: 45px;
+  background-color: #504e41;
+  display: flex;
+}
